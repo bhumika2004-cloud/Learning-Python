@@ -1,0 +1,8 @@
+def time_saved(distance, speed1, speed2):
+    time1= distance/speed1
+    time2= distance/speed2
+
+    if speed1>speed2:
+        return '{:.2}'.format(time2-time1)
+    else:
+        return '{:.2}'.format(time1-time2)
