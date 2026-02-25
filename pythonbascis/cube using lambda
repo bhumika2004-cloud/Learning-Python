@@ -1,0 +1,9 @@
+# create the function
+get_cube = lambda no:no**3
+
+# take integer input
+number = int(input())
+
+# call the function and print the result
+num_cube=get_cube(number)
+print(num_cube)
