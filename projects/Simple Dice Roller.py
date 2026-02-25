@@ -47,6 +47,8 @@ dice_faces= {
 print("Welcome to the Dice Roller!")
 num=random.randint(1,6)
 print(f'You rolled {num}!')
+for line in dice_faces[num]:
+    print(line)
 
 play_choice=input('Roll the dice?(y/n):')
 
